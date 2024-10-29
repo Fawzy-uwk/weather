@@ -10,7 +10,6 @@ const Tl = ({ weatherData }) => {
 
       <div className="w-full flex items-center justify-center gap-3 my-4">
         <p className="text-2xl text-white font-bold">{`${weatherData.name},  ${weatherData.country}`}</p>
-
       </div>
     </>
   );
