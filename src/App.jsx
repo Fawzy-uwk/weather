@@ -1,7 +1,7 @@
 import { FaSnowflake, FaStar } from "react-icons/fa";
 import Header from "./Components/Header";
 import Input from "./Components/Input";
-import Tl from "./Components/TL";
+import Tl from "./Components/Tl";
 import WeatherDetails from "./Components/WeatherDetails";
 import Forecast from "./Components/Forecast";
 import { useEffect, useState } from "react";
