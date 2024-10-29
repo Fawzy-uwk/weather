@@ -103,7 +103,7 @@ function App() {
         )}
 
         {(currentTime > sunset || currentTime < sunrise) && (
-          <div className="absolute -z-[1] top-0 left-0 h-full w-full">
+          <div className="absolute -z-[1] top-0 left-0 w-full overflow-hidden">
             {/* Render multiple stars */}
             {Array(150)
               .fill()
